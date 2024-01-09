@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.11.0.js"></script>
+		<title></title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+		.com-title {
+          font-size: 32px;
+          line-height: 32px;
+          text-align: center;
+          margin-bottom: 70px;
+        }
+        .date {
+          width: 140px;
+          color: #333;
+        }
+        body{
+        	background-image: url(img/map2.png);
+        }
+        a{
+        text-decoration:none;
+        color:#303030;
+      }
+
+			
+		</style>
+	</head>
+	<body>
+            <div class="com-title">
+                <span>公告通知</span>
+            </div>
+<div class="center">
+	<div class="date"><p class="day">25</p> 
+		<p class="year">2023.10</p></div> 
+		<div class="info-box"><div class="tops">
+			<a href="https://www.ccam.org.cn/CN/news/2023/002/00318.shtml"  id="list" >公告 | 中国动漫博物馆将于近期临时闭馆</a>
+			<div class="desc over-line2">尊敬的观众朋友：
+中国动漫博物馆因馆内维护需要，将于2023年10月30日（下周一）至11月2日（下周四）期间临时闭馆，11月3日（下周五）起恢复开馆。具体请关注中国动漫博物馆官方微信公众号。给您带来的不便，敬请谅解！
+ 特此公告。
+中国动漫博物馆  
+2023年10月25日</div>
+		</div>
+		</div>
+</div>
+<div class="center1">
+	<div class="date1">
+		<p class="day1">31</p> 
+		<p class="year1">2023.10</p></div> 
+		<div class="info-box1">
+			<div class="tops1">
+				<a href="https://www.ccam.org.cn/CN/news/2023/002/00317.shtml"  id="list1" >杭州中国动漫博物馆2022年度部门决算</a>
+				
+				<div class="desc over-line21">现将我馆 2022 年度部门决算公开如下，详见附件：杭州中国动漫博物馆2022年度部门决算
+				</div>
+			</div>
+		</div>
+</div>
+    
+    <script type="text/javascript">
+      $(document).ready(function(){
+          //代码编写区域
+          $("#list").mouseover(function(){
+            $(this).css({
+                "color": "#ff0000",
+                "font-style": "oblique"
+            });
+              
+          });
+        $("#list").on("mouseout", function() {
+            $(this).css({
+                "color": "", // Set color to default (empty), which will revert to the initial style
+                "font-style": "normal"
+            });
+        });
+          $("#list1").mouseover(function(){
+            $(this).css({
+                "color": "#ff0000",
+                "font-style": "oblique"
+            });
+              
+          });
+        $("#list1").on("mouseout", function() {
+            $(this).css({
+                "color": "", // Set color to default (empty), which will revert to the initial style
+                "font-style": "normal"
+            });
+        });
+          
+      })
+    </script>
+	</body>
+</html>
